@@ -11,7 +11,10 @@ import scrapy
 class SpiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    bookName = scrapy.Field() #书名
-    price = scrapy.Field()  #价格
-    sale = scrapy.Field()  #销量
-    comments = scrapy.Field()#评价
+    rank = scrapy.Field()
+	name = scrapy.Field()
+	author = scrapy.Field()
+	press = scrapy.Field()
+	price = scrapy.Field()
+	comments = scrapy.Field()
+
